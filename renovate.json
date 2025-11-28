@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended"
   ],
+  "allowScripts": true,
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
