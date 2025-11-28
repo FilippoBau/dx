@@ -3,7 +3,9 @@
   "extends": [
     "config:recommended"
   ],
-  "allowScripts": true,
+  "vulnerabilityAlerts": {
+    "enabled": false
+  }
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
